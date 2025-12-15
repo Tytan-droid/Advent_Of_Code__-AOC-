@@ -2,8 +2,11 @@
 
 
 
-##Makefile:
-
-  - runall year=<year>
-
-  - run year=<year> day=<day>
+  ## Makefile:
+  
+            ## Execute the whole year ##
+    -runall year = <year>
+    
+    
+            ## Execute one day of the year ##
+    -run year = <year> day = <day>
