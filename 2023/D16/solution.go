@@ -180,7 +180,7 @@ func part2(input string) int {
 func main() {
 	start := time.Now()
 	fmt.Println("--------------------------------------------------------------")
-	fmt.Println("	AOC 2023 Day2 : ")
+	fmt.Println("	AOC 2023 Day16 : ")
 	fmt.Println("		-part1 : ", part1(inputDay, 0, 0, RIGHT), "				//made in ", time.Since(start))
 	start = time.Now()
 	fmt.Println("		-part2 : ", part2(inputDay), "				//made in ", time.Since(start))
